@@ -268,7 +268,7 @@ for img in img_dir:
         vis_conf = vis.VisConfig(ctrlpts=False, legend=False,trims=True)
         surf_bottom.vis = vis.VisSurface(vis_conf)
 
-        #归一化后裁剪曲线
+      
         trim1 = BSpline.Curve()
         trim1.degree = 1
         trim1.ctrlpts = leaf_contours
